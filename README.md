@@ -1,10 +1,10 @@
-#check-exercise
+# check-exercise
 
 A small program that checks for your missing assignments
 
 **Currently only works for our first grading period*
 
-##Requires
+## Requires
 Before you run the script, you need to install:
 + Python 3
 
@@ -19,7 +19,7 @@ Before you run the script, you need to install:
      
      `$ pip install gitpython`
      
-##Usage
+## Usage
 1. Clone this repo by downloading it or using
 
     `$ git clone git@github.com:xaviersalazar/check-exercises.git`
