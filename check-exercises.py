@@ -15,8 +15,17 @@ def createPath():
     return pathName
 
 def clone(p):
-    remoteURL = input('Enter your remote github repo: ')
-    git.Repo.clone_from(remoteURL, p, progress=Progress())
+    codeup = r"codeup-web-exercises"
+    while True:
+        remoteURL = input('Enter your remote github repo: ')
+        matches = re.findall(codeup, remoteURL)
+        if not matches:
+            print('Not the correct repo. Use your codeup-web-exercises repo')
+            print('SSH ex: git@github.com:your-name-here/codeup-web-exercises.git')
+            print('HTTPS ex: https://github.com/your-name-here/codeup-web-exercises.git\n')
+        else:
+            git.Repo.clone_from(remoteURL, p, progress=Progress())
+            break
     print('----------- DONE CLONING ----------\n\n')
 
 def filter(p):
