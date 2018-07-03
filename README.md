@@ -2,8 +2,6 @@
 
 A small program that checks for your missing assignments
 
-**Currently shows all missing exercises from the entire curriculum* 
-
 ## Requires
 Before you run the script, you need to install:
 + Python 3
