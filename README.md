@@ -1,8 +1,8 @@
-# check-exercise
+# check-exercises
 
 A small program that checks for your missing assignments
 
-**Currently only works for our first grading period*
+**Currently shows all missing exercises from the entire curriculum* 
 
 ## Requires
 Before you run the script, you need to install:
