@@ -22,7 +22,7 @@ Before you run the script, you need to install:
 
     `git clone git@github.com:xaviersalazar/check-exercises.git`
 
-2. From your terminal navigate to the folder __check-exercises__, and within the folder run the command
+2. From your terminal navigate to the folder __check-exercises__. This will be the folder you cloned in the previous step, or if you downloaded it, it will be a .zip file. Within the __check-exercises__ folder run the command
 
     `python3 check-exercises.py`
 
