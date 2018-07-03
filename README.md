@@ -11,20 +11,20 @@ Before you run the script, you need to install:
 
     Use the command below from the terminal
 
-    `$ pip3 install gitpython`
+    `pip3 install gitpython`
     
      If that doesn't work, you don't have pip3 installed so you have to use
      
-     `$ pip install gitpython`
+     `pip install gitpython`
      
 ## Usage
-1. Clone this repo by downloading it or using
+1. Clone this repo by downloading it, or in the terminal use
 
-    `$ git clone git@github.com:xaviersalazar/check-exercises.git`
+    `git clone git@github.com:xaviersalazar/check-exercises.git`
 
-2. Within the folder __check-exercises__, run the command
+2. From your terminal navigate to the folder __check-exercises__, and within the folder run the command
 
-    `$ python3 check-exercises.py`
+    `python3 check-exercises.py`
 
 You'll need the link to your repo, both the ssh or https version will work.
 
