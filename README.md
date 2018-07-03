@@ -6,6 +6,8 @@ A small program that checks for your missing assignments
 Before you run the script, you need to install:
 + Python 3
 
+    Use the link below, scroll down to the bottom of the page and you'll find the downloads.
+
     [https://www.python.org/downloads/release/python-370/](https://www.python.org/downloads/release/python-370/)
 + GitPython
 
